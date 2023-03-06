@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    --main-blue: #45F0DF;
+    --violet-blue: #4472CA;
+    --egyptian-blue: #0A369D;
+    --main-violet: #5E7CE2;
+    --clear-blue: #92B4F4;
+}
