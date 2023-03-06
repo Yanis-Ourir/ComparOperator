@@ -1,15 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-* {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
 :root {
     --main-blue: #45F0DF;
     --violet-blue: #4472CA;
     --egyptian-blue: #0A369D;
     --main-violet: #5E7CE2;
     --clear-blue: #92B4F4;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    background-color: var(--egyptian-blue);
+    color: white;
+
+
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+nav img {
+    width: 150px;
+
 }
 
 .footer-details {
