@@ -65,3 +65,5 @@ class Manager
         /* REQUETE SQL POUR CREER UNE DESTINATION */
     }
 }
+
+?>

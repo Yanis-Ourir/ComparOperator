@@ -3,7 +3,7 @@
 :root {
     --main-blue: #45F0DF;
     --violet-blue: #4472CA;
-    --egyptian-blue: #0A369D;
+    --deepsky-blue: #3ABEFF;
     --main-violet: #5E7CE2;
     --clear-blue: #92B4F4;
 }
@@ -17,13 +17,15 @@ body {
     padding: 0;
 }
 
+.destination-page {
+    background-color: #2B2D42;
+}
+
 
 
 nav {
-    background-color: var(--egyptian-blue);
+    background-color: var(--violet-blue);
     color: white;
-
-
 }
 
 .navbar-list {
@@ -33,14 +35,69 @@ nav {
     font-size: 1.2rem;
 }
 
+.navbar-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-list a:hover {
+    color: var(--main-blue);
+}
+
 nav img {
     width: 150px;
 
 }
 
+.choosen-destination {
+    background-image: url("../assets/rome.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: 80%;
+    justify-content: start;
+    height: 700px;
+    color: white;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.choosen-destination h2 {
+    margin-left: 1rem;
+}
+
+.op-list {
+    margin-top: 1rem;
+
+}
+
+.tour-operator {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--deepsky-blue);
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    transition: transform .2s;
+
+}
+
+.tour-operator:hover {
+    transform: scale(1.01);
+    border: 2px solid var(--main-blue);
+}
+
+
+.tour-operator img {
+    width: 150px;
+}
+
 .footer-details {
     display: flex;
-    background-color: var(--egyptian-blue);
+    background-color: var(--violet-blue);
     color: white;
     align-items: center;
     justify-content: space-around;

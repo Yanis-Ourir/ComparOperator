@@ -1,3 +1,7 @@
+<?php
+require("../back/poo/Manager.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,14 +14,32 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="destination-page">
 
     <section id="nav" class="nav">
         <?php include("./navbar.php") ?>
+    </section>
+
+    <section id="choosen-destination" class="choosen-destination">
+
+        <h2>Vol en destination de <?php echo $actualDestination ?></h2>
+
 
     </section>
 
-    <section id="destination-list" class="destination-list">
+    <section id="op-list" class="op-list">
+
+        <div class="tour-operator">
+            <img src="../assets/logo-test1.png" alt="logo-operator">
+            <p>Ventrata</p>
+            <p>Note <?php echo "5" ?>/5</p>
+        </div>
+
+        <div class="tour-operator">
+            <img src="../assets/logo-test1.png" alt="logo-operator">
+            <p>Ventrata</p>
+            <p>Note <?php echo "5" ?>/5</p>
+        </div>
 
     </section>
 
