@@ -46,3 +46,13 @@ nav img {
     justify-content: space-around;
     font-size: 1.5rem;
 }
+.logo-acc {
+    width: 400px;
+}
+.accueil{
+    display: flex;
+    justify-content: center;
+}
+.bak-col {
+    background-color: red;
+}
