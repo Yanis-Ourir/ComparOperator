@@ -4,9 +4,9 @@ echo '
 <nav>
             <div class="navbar-list">
 
-                <p>Accueil</p>
+                <a href="index.php">Accueil</a>
                 <img src="../assets/logo-test2.png" alt="logo">
-                <p>Destination</p>
+                <a href="destination.php">Destination</a>
             </div>
         </nav>
 '
