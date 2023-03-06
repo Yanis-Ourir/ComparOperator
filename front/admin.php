@@ -55,8 +55,8 @@ require_once('../back/poo/Manager.php');
                     <option value="6">Séoul</option>
                     <option value="7">Paris</option>
                     <option value="8">Mexique</option>
-                    <option value="8">Perou</option>
-                    <option value="8">Madrid</option>
+                    <option value="9">Perou</option>
+                    <option value="10">Madrid</option>
                 </select>
             </div>
 
