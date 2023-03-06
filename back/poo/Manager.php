@@ -6,6 +6,23 @@ class Manager
 
     public function __construct()
     {
+        $this->connexionBdd();
+    }
+
+    public function connexionBdd()
+    {
+        try {
+            $bdd = new PDO(
+                'mysql:host=localhost;dbname=compare-op_bdd;charset=utf8',
+                'root',
+                '',
+            );
+        } catch (Exception $e) {
+            die('Erreur : ' . $e->getMessage());
+        }
+
+
+        return $bdd;
     }
 
     public function getAllDestination()

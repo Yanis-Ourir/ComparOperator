@@ -11,3 +11,12 @@
     --main-violet: #5E7CE2;
     --clear-blue: #92B4F4;
 }
+
+.footer-details {
+    display: flex;
+    background-color: var(--egyptian-blue);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
