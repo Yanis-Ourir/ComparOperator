@@ -1,5 +1,6 @@
 <?php
 require_once('../back/poo/Manager.php');
+$manager = new Manager("compare_opp-bdd");
 
 ?>
 
@@ -29,7 +30,7 @@ require_once('../back/poo/Manager.php');
     Echappées Belle
     Oasis Tours -->
 
-    <form action="" method="POST" class="d-flex justify-content-center">
+    <form action="../back/poo/Manager.php" method="POST" class="d-flex justify-content-center">
 
         <div>
             <div class="m-5">
