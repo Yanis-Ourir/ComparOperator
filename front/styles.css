@@ -5,7 +5,7 @@
     --violet-blue: #4472CA;
     --deepsky-blue: #3ABEFF;
     --main-violet: #5E7CE2;
-    --clear-blue: #92B4F4;
+    --space-cadet: #2B2D42;
 }
 
 * {
@@ -18,7 +18,7 @@ body {
 }
 
 .destination-page {
-    background-color: #2B2D42;
+    background-color: var(--space-cadet);
 }
 
 
@@ -95,6 +95,11 @@ nav img {
     width: 150px;
 }
 
+.admin-page {
+    background-color: var(--space-cadet);
+    color: white;
+}
+
 .footer-details {
     display: flex;
     background-color: var(--violet-blue);
@@ -103,11 +108,16 @@ nav img {
     justify-content: space-around;
     font-size: 1.5rem;
 }
+
 .logo-acc {
     width: 400px;
 }
-.accueil{
+
+.accueil {
     display: flex;
     justify-content: center;
 }
 
+.bak-col {
+    background-color: red;
+}
