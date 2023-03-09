@@ -11,34 +11,57 @@
     <link rel="stylesheet" href="styles.css">
     <title>ComparOpérator</title>
 </head>
-<body>
+<body class="bak-body">
     <?php include('navbar.php') ?>
     <div class="accueil">
         <img class="logo-acc" src="../assets/logo-test2.png">
     </div>
     <div>
         <h1 style="text-align: center;">Compar Operator</h1>
-        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex eaque deleniti cum! Esse ipsa, rerum numquam at adipisci <br>qui temporibus quia nisi porro voluptate consequatur asperiores veniam veritatis totam non. sit amet consectetur, adipisicing elit. Ex eaque deleniti cu</p>
+        <p style="text-align: center; padding-top: 40px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex eaque deleniti cum! Esse ipsa, rerum numquam at adipisci <br>qui temporibus quia nisi porro voluptate consequatur asperiores veniam veritatis totam non. sit amet consectetur, adipisicing elit. Ex eaque deleniti cu</p>
      </div>
-        <h1>Nos Destinations :</h1>
+        <h1 style="padding-left:70px; padding-top: 70px; padding-bottom: 60px;">Nos Destinations :</h1>
     <div class="container text-center">
         <div class="row">
-            <div class="col-8 bak-col">
-                Column
+            <div class="col-8">
+                <img src="../assets/rome.jpg" class="w-100 h-50">
                 <div class="row">
                     <div class="col-6">
+                        <img src="../assets/miami-pt.jpg" class="w-100 h-100 mt-5">
                     </div>
                     <div class="col-6">
+                        <img src="../assets/ibiza-pt.jpg" class="w-100 h-100 mt-5">
                     </div>
-                </div>
-                <div class="row">
-                </div>  
+                </div>    
             </div>
             <div class="col-4">
-                Column
+                <img src="../assets/new.jpg" class="w-100 h-100">
             </div> 
         </div>
+        <div class="row">
+                <img src="../assets/tokyo.png" class="w-100 mt-4 mb-4">
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <img src="../assets/sk-l.jpg" class="w-100 h-50">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/cancun-pt.jpg" class="w-100 h-100 mt-5">
+                    </div>
+                    <div class="col-6">
+                        <img src="../assets/paris-pt.jpg" class="w-100 h-100 mt-5">
+                    </div>
+                </div>    
+            </div> 
+            <div class="col-4">
+                <img src="../assets/dubai-l.jpg" class="w-100 h-100">
+            </div>  
+        </div>
+        <div class="row">
+                <img src="../assets/vegas-l.jpg" class="w-100 mt-4 h-25 mb-3">
+        </div>
     </div>
+    <?php include('footer.php') ?>
 </body>
 
 </html>
